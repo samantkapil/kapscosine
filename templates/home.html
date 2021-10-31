@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>Similarity</h2>
+
+        <form method="POST" action='/cosine'>
+            <label for="text1">Text1:</label><br>
+            <input type="text" id="text1" name="text1" placeholder="text1" required='required'><br>
+            <label for="text2">Text2:</label><br>
+            <input type="text" id="text2" name="text2" placeholder="text2" required='required'><br><br>     
+
+            <button type="submit">Submit</button>
+            <br>
+            {{cosine}}
+        </form>
+
+
+    </body>
+</html>
